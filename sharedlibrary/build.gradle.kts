@@ -4,7 +4,7 @@ plugins {
 
 group ="com.begemota"
 
-val KotlinVer ="1.7.20"
+val KotlinVer ="1.9.0"
 val jcompose  ="1.3.0" //   "1.1.1"
 
 
@@ -27,37 +27,37 @@ dependencies {
         //api("androidx.customview:customview:1.1.0")
         //api("androidx.customview:customview-poolingcontainer:1.0.0")
 
-        api("androidx.activity:activity-compose:1.6.1")
-        api("androidx.lifecycle:lifecycle-runtime-ktx:2.5.1")
+        api("androidx.activity:activity-compose:1.7.0")
+        api("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
 
 
-        api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4")
-        api("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4")
+        api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+        api("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
         api("org.jetbrains.kotlin:kotlin-reflect:$KotlinVer")
 
        //plugins
-        api("com.android.tools.build:gradle:7.4.2")
+        api("com.android.tools.build:gradle:8.1.0")
         api("org.jetbrains.kotlin:kotlin-gradle-plugin:$KotlinVer")
         api("org.jetbrains.kotlin.android:$KotlinVer")
-        api("com.github.ben-manes.versions:0.44.0")
+        api("com.github.ben-manes.versions:0.47.0")
         //
         api("com.sun.mail:android-mail:1.6.7")
         api("com.sun.mail:android-activation:1.6.7")
 
-        api("org.jetbrains.kotlinx:kotlinx-serialization-core:1.4.1")
-        api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1")
+        api("org.jetbrains.kotlinx:kotlinx-serialization-core:1.5.1")
+        api("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
 
         api("com.jakewharton.timber:timber:5.0.1")
         api("io.github.microutils:kotlin-logging-jvm:3.0.5")
-        api("com.squareup.leakcanary:leakcanary-android:2.10")
+        api("com.squareup.leakcanary:leakcanary-android:2.12")
 
-        api("com.google.cloud:google-cloud-logging-logback:0.130.0-alpha")
-        api("com.google.cloud:google-cloud-storage:2.19.0")
+        api("com.google.cloud:google-cloud-logging-logback:0.130.12-alpha")
+        api("com.google.cloud:google-cloud-storage:2.22.4")
         api("com.google.android.play:core:1.10.3")
         api("com.google.android.play:core-ktx:1.8.1")
-        api("ch.qos.logback:logback-classic:1.4.5")
+        api("ch.qos.logback:logback-classic:1.4.8")
 
-        val KtorVer                       = "2.2.3"
+        val KtorVer                       = "2.3.3"
         api("io.ktor:ktor-client-core:$KtorVer")
         api("io.ktor:ktor-client-okhttp:$KtorVer")
         api("io.ktor:ktor-client-cio:$KtorVer")
@@ -74,7 +74,7 @@ dependencies {
         api("io.ktor:ktor-server-netty:$KtorVer")
         api("io.ktor:ktor-server-tests:$KtorVer")
 
-        api("org.jsoup:jsoup:1.15.4")
+        api("org.jsoup:jsoup:1.16.1")
 
         api("junit:junit:4.13.2")
         api("androidx.test.ext:junit:1.1.2")
